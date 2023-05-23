@@ -93,6 +93,7 @@ class _AdministracaoState extends State<Administracao> {
                     DataColumn(label: Text('Pergunta')),
                     DataColumn(label: Text('Ações')),
                   ],
+                  //teste 
                   rows: perguntas.map((pergunta) {
                     return DataRow(cells: [
                       DataCell(Text(pergunta['id'].toString())),
